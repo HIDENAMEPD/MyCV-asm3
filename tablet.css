@@ -1,0 +1,59 @@
+@media only screen and (max-width: 768px) {
+  .nav a:nth-child(2) {
+    margin-right: 10px;
+  }
+
+  #certificate img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  #certificate .row,
+  .certificate-item {
+    border-bottom: 1px solid orange;
+  }
+
+  #certificate .row:first-child {
+    border: none;
+  }
+  .certificate-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #nav-bar a,
+  #nav-bar a:first-child {
+    border: none;
+  }
+
+  #nav-bar {
+    padding-left: 30px;
+  }
+
+  .project-item .status {
+    flex-direction: column !important;
+    row-gap: 15px;
+    align-items: start !important;
+  }
+  .project-item {
+    margin-bottom: 30px;
+  }
+
+  .status > span:last-child {
+    /* align-items: end; */
+    margin-left: 0;
+  }
+  .year {
+    width: 3rem;
+  }
+  #nav-bar {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+  #nav-bar a {
+    padding: 5px 10px;
+  }
+  #certificate {
+    padding: 0 20px;
+  }
+}

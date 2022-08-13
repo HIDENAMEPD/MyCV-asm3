@@ -1,0 +1,37 @@
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+
+  section {
+    margin-bottom: 70px;
+  }
+
+  #project {
+    margin-bottom: 10px;
+  }
+
+  #banner h1 {
+    margin-bottom: 0;
+  }
+
+  #banner {
+    top: 50%;
+  }
+  .project-item .structure {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+  #nav-bar a {
+    font-size: 0.8rem;
+  }
+  #nav-bar .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer .container > .row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
